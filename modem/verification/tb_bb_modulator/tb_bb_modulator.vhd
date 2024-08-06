@@ -74,8 +74,8 @@ begin
       os_rfd_i      => tb_dut_os_rfd_i,
       -- Control and report IOs
       nm1_bytes_i   => "00000011",
-      nm1_pre_i     => "00000011",
-      nm1_sfd_i     => "00000011",
+      nm1_pre_i     => "00001111",
+      nm1_sfd_i     => "00000001",
       send_i        => tb_dut_send_i,
       tx_rdy_o      => tb_dut_tx_rdy_o,
   );
